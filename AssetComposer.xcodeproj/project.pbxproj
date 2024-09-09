@@ -13,6 +13,10 @@
 		5676ADCA2C65624F005F7581 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 5676ADC92C65624F005F7581 /* Base */; };
 		5676ADCC2C656251005F7581 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5676ADCB2C656251005F7581 /* Assets.xcassets */; };
 		5676ADCF2C656251005F7581 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 5676ADCE2C656251005F7581 /* Base */; };
+		5676ADD72C668EB2005F7581 /* AssetComposer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5676ADD62C668EB2005F7581 /* AssetComposer.swift */; };
+		5676ADD92C668F00005F7581 /* DefaultAnchorCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5676ADD82C668F00005F7581 /* DefaultAnchorCalculator.swift */; };
+		5676ADDB2C668F79005F7581 /* CGSize+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5676ADDA2C668F79005F7581 /* CGSize+Extensions.swift */; };
+		5676ADDD2C668FD6005F7581 /* UIImage+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5676ADDC2C668FD6005F7581 /* UIImage+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		5676ADCB2C656251005F7581 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5676ADCE2C656251005F7581 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5676ADD02C656251005F7581 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5676ADD62C668EB2005F7581 /* AssetComposer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetComposer.swift; sourceTree = "<group>"; };
+		5676ADD82C668F00005F7581 /* DefaultAnchorCalculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultAnchorCalculator.swift; sourceTree = "<group>"; };
+		5676ADDA2C668F79005F7581 /* CGSize+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGSize+Extensions.swift"; sourceTree = "<group>"; };
+		5676ADDC2C668FD6005F7581 /* UIImage+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +67,10 @@
 				5676ADC22C65624F005F7581 /* AppDelegate.swift */,
 				5676ADC42C65624F005F7581 /* SceneDelegate.swift */,
 				5676ADC62C65624F005F7581 /* ViewController.swift */,
+				5676ADD62C668EB2005F7581 /* AssetComposer.swift */,
+				5676ADD82C668F00005F7581 /* DefaultAnchorCalculator.swift */,
+				5676ADDC2C668FD6005F7581 /* UIImage+Extensions.swift */,
+				5676ADDA2C668F79005F7581 /* CGSize+Extensions.swift */,
 				5676ADC82C65624F005F7581 /* Main.storyboard */,
 				5676ADCB2C656251005F7581 /* Assets.xcassets */,
 				5676ADCD2C656251005F7581 /* LaunchScreen.storyboard */,
@@ -139,7 +151,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				5676ADC72C65624F005F7581 /* ViewController.swift in Sources */,
+				5676ADD92C668F00005F7581 /* DefaultAnchorCalculator.swift in Sources */,
 				5676ADC32C65624F005F7581 /* AppDelegate.swift in Sources */,
+				5676ADDD2C668FD6005F7581 /* UIImage+Extensions.swift in Sources */,
+				5676ADD72C668EB2005F7581 /* AssetComposer.swift in Sources */,
+				5676ADDB2C668F79005F7581 /* CGSize+Extensions.swift in Sources */,
 				5676ADC52C65624F005F7581 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
